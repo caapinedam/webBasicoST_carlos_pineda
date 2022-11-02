@@ -1,0 +1,38 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: linear-gradient(white,darkgray);
+}
+
+header,nav,section,footer{
+    background-color: lightskyblue;
+    border-style: 1;
+    margin: 10px;
+    width: 90%;
+    padding: 20px;
+    display: block;
+    -moz-border-radius: "22px";
+    -webkit-border-radius: "22px"
+}
+
+article{
+    background-color: lightgreen;
+    border-style: 1;
+    margin: 10px;
+    width: 90%;
+    padding: 20px;
+    display: block;
+    -moz-border-radius: "22px";
+    -webkit-border-radius: "22px"
+}
+
+.centering{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
