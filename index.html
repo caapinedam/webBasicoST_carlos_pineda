@@ -5,27 +5,67 @@
         <link rel="icon" href="icon/icono.png" type="image/png"/>
         <meta charset="UTF-8">
         <!--descripcion contenido de la pagina-->
-        <meta name="descripcion" content="mi primer proyecto">
-	    <title>ola q ase </title>
+        <meta name="descripcion" content="Empresa ABC">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;900&family=Shalimar&display=swap" rel="stylesheet">
+	    <title>Empresa ABC </title>
+
     </head>
     <body>
-        <header>
+        <header style="background-color: rgb(33, 97, 140); border-radius: 10px;">
             <!--<marquee behavior="" direction=""><h1>Carlos Pineda</h1></marquee>-->
             <!--<marquee scrollamount="20"><h1>Carlos Pineda</h1></marquee>-->
-            <h1>Carlos Andrés Pineda Morato</h1>
+            <img style="float: left" src="image/imagenEmpresa.png" alt="imagenEmpresa" width="150">
+            <h1 align="right" style="color: lightgray">Empresa ABC</h1>
         </header>
-        <nav></nav>
-        <section>
-            <h2>Perfil</h2>
-            <article>
+        <nav style="background-color: lightblue; border-radius: 10px">
+            <a href="#Inicio">Inicio</a>
+            <a href="#Productos">Productos</a>
+            <a href="#Contacto">Contactos</a>
+        </nav>
+
+        <section style="background-color: rgb(33, 97, 140);">
+            <a id="Inicio"> <H2>Inicio</H2></a>
+            <article><p>La empresa es lider mundial en el sector aeroespacial y de viajes a planetas</p></article>
+        </section>
+
+        <section style="background-color: rgb(33, 97, 140)">
+            <a id="Productos"> <H2>Productos</H2></a>
+            <article class="centering" style="background-color: lightgray">
+                <table border="1" style="background-color: lightskyblue;">
+                    <caption>Categorias de productos</caption>
+                    <tbody>
+                        <tr>
+                            <td><img src="image/luna.png" width="150"></td>
+                            <td><img src="image/marte.png" width="150"></td>
+                            <td><img src="image/jupiter.png" width="150"></td>
+                            <td><img src="image/saturno.png" width="150"></td>
+                        </tr>
+                        <tr>
+                            <td>Luna</td>
+                            <td>Marte</td>
+                            <td>Jupiter</td>
+                            <td>Saturno</td>
+                        </tr>
+                    </tbody>
+                </table>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolor velit nesciunt aut eaque ducimus amet aliquam? Rem nisi aliquid cumque ducimus. Natus voluptatum illo consequuntur fugit odit, laudantium iure!</p>
             </article>
+            <h2>Contactos</h2>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ex tempore adipisci repellat incidunt magni fuga esse culpa doloribus ut delectus, quo inventore quas, perspiciatis voluptatibus architecto aut temporibus atque!</p>
+            </article>
+
         </section>
         <aside></aside>
         <footer>
             <address>
-                Autor: Carlos Pineda 
-                correo: caapinedam@correo.udistrital.edu.co
+                <a name="Contacto">2022 Empresa ABC. Derechos reservados <br></a>
+                Sede: Barrio Las Cruces Calle 2 # 3 - 55<br>
+                Conmutador: (+57+1) 6969696 Ext 69. <br>
+                correo: elqueloleeesputo@corre.udistrital.edu.co
             </address>
             <p>Ultima modificación [1/11/2022]</p>
         </footer>
