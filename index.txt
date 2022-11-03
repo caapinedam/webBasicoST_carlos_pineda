@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="">
+	<link rel="icon" href="icon/icono.png" type="image/png"/>
+	<title>ola q ase </title>
+    </head>
+    <body>
+        <h1> puto el que lo lea <h/1>
+        <h2> y el que no tambien <h/2>
+    </body>
+</html>
